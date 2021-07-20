@@ -1,0 +1,22 @@
+{
+  "id": "47a3ac0b-fa43-4750-92b3-6be82fff2ed3",
+  "name": "Rapid ILS Print Monos Workflow",
+  "description": "",
+  "versionTag": "1.0",
+  "historyTimeToLive": 0,
+  "deploymentId": null,
+  "active": false,
+  "setup": {
+    "asyncBefore": false,
+    "asyncAfter": false
+  },
+  "nodes": [
+    "{{mod-workflow}}/startEvent/9dc09225-d269-4f66-8829-175bdab1660e",
+    "{{mod-workflow}}/databaseConnectionTask/3d3ec406-ec1c-4344-95c2-ce2472917685",
+    "{{mod-workflow}}/databaseQueryTask/304e4191-c7a8-423c-8318-59920a5d0843",
+    "{{mod-workflow}}/databaseDisconnectTask/65693a0e-ad69-4f9e-9783-74a557d08422",
+    "{{mod-workflow}}/compressFileTask/2d4019f2-43f0-40d7-80eb-7c5614a33ab5",
+    "{{mod-workflow}}/endEvent/21ba4ec8-75d2-4cc1-8706-410eadd42bce"
+  ],
+  "initialContext": {}
+}

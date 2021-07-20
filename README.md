@@ -162,3 +162,18 @@ fw config set ldp-password ***
 fw build rapid-print-serials
 fw activate rapid-print-serials
 ```
+
+## rapid-print-monos
+
+Rapid ILS Print Monos Monthly Report. (Scheduled)
+
+```
+fw config set ldp-url ***
+fw config set ldp-user ***
+fw config set ldp-password ***
+```
+
+```
+fw build rapid-print-monos
+fw activate rapid-print-monos
+```
